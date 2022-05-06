@@ -1,0 +1,27 @@
+a{
+   text-decoration: none;
+   color: #fff;
+}
+
+a i{
+   padding-right: 5px;
+}
+.menu-bar{
+   background-color: #777;
+   overflow: auto;
+}
+
+.menu-bar a{
+   padding: 12px;
+   display: inline-block;
+   font-size: 18px;
+   float: left;
+}
+
+.menu-bar a:hover{
+   background-color: #000;
+}
+
+.menu-bar a.active{
+   background-color: teal;
+}
